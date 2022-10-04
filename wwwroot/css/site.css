@@ -70,7 +70,6 @@ footer {
   border-color: #00D7C7;
 }
 
-
 .btn_custom_edit {
   background-color: #FF9D22;
   border-color: #FF9D22;
@@ -91,4 +90,14 @@ footer {
 .btn_custom_delete:hover{
   background-color: whitesmoke;
   border-color: #e3332f;
+}
+
+.btn_custom_secondary{
+  background-color: #4F126F;
+  border-color:#4F126F;
+  color: white;
+}
+
+.btn_custom_secondary:hover{
+   color: #00D7C7;
 }
