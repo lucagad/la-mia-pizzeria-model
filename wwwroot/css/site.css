@@ -12,6 +12,12 @@ html {
   position: relative;
 }
 
+
+/*
+// CUSTOM
+*/
+
+
 header {
   height: 60px;
 }
@@ -36,3 +42,53 @@ footer {
   width: 50px;
 }
 
+.show-img-custom{
+  height: 150px;
+  width: 150px;
+}
+
+
+/*
+// BOTTONI CRUD
+*/
+
+.btn_custom_info,
+.btn_custom_edit,
+.btn_custom_delete{
+  margin: 2px;
+}
+
+.btn_custom_info {
+  background-color: #00D7C7;
+  border-color: #00D7C7;
+  color: white;
+}
+
+
+.btn_custom_info:hover{
+  background-color: whitesmoke;
+  border-color: #00D7C7;
+}
+
+
+.btn_custom_edit {
+  background-color: #FF9D22;
+  border-color: #FF9D22;
+  color: white;
+}
+
+.btn_custom_edit:hover{
+  background-color: whitesmoke;
+  border-color: #FF9D22;
+}
+
+.btn_custom_delete{
+  background-color: #e3332f;
+  border-color: #e3332f;
+  color: white;
+}
+
+.btn_custom_delete:hover{
+  background-color: whitesmoke;
+  border-color: #e3332f;
+}
