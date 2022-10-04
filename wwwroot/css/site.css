@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+}
+
+header {
+  height: 60px;
+}
+
+main {
+  height: calc(100vh - 60px - 60px);
+  overflow-y: auto;
+}
+
+footer {
+  height: 60px;
+}
+
+.card-custom{
+  width: 18rem;
+  height: 100%;
+  flex-shrink: 1;
+}
+
+.table-img-custom{
+  height: 50px;
+  width: 50px;
+}
+
